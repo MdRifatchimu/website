@@ -2,6 +2,9 @@ body {
   font-family: "Bona Nova", serif;
   margin: 0;
 }
+nav {
+  display: block;
+}
 
 .middle {
   background-image: linear-gradient(
@@ -10,13 +13,13 @@ body {
     rgb(155, 9, 135)
   );
   color: aliceblue;
-  border-radius: 10px;
+  border-radius: 30px;
   margin: 50px 200px;
   padding: 50px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 section {
   display: flex;
@@ -51,6 +54,11 @@ h2 {
 }
 .half-width img {
   width: 80%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 /* .card {
   margin: 5px 10px;
@@ -59,7 +67,7 @@ h2 {
 .card img {
   width: 90%;
 }
-a {
+.button {
   background-image: linear-gradient(90deg, orange, rgb(255, 113, 132));
   text-decoration: none;
   color: aliceblue;
@@ -70,4 +78,7 @@ a {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+.buton {
+  text-decoration: none;
 }
