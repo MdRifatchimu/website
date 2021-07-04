@@ -5,7 +5,6 @@ body {
 
 section {
   display: flex;
-  height: 500px;
 }
 .welcome {
   background-image: url(images/top-banner.png);
@@ -18,10 +17,10 @@ section {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .half-width {
