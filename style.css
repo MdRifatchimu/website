@@ -21,6 +21,17 @@ nav {
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
 }
+.logo {
+  justify-content: center;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+  background: #f6f7f9;
+}
 section {
   display: flex;
 }
@@ -30,6 +41,7 @@ section {
 .welcome {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  margin: 0;
 }
 .dream {
   background-image: url(images/dream-bg.png);
@@ -38,7 +50,7 @@ section {
 }
 .cards {
   display: flex;
-  margin: 100px;
+  margin: 50px 150px;
 }
 
 h1 {
